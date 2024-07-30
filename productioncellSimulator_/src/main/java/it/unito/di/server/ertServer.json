@@ -1,0 +1,120 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "http://localhost:8003/ERTServer",
+  "title": "ERTServer Thing Description",
+  "@type": "ERTServer",
+  "description": "Server for managing ERT-related operations",
+  "securityDefinitions": {
+    "token_sc": {
+      "scheme": "username/password",
+      "in": "header",
+      "name": "Authorization"
+    }
+  },
+  "security": ["token_sc"],
+  "properties": {
+    "empty": {
+      "type": "boolean",
+      "description": "Status of emptiness for the ERT"
+    },
+    "angle": {
+      "type": "float",
+      "description": "Value of the rotation angle of the ERT"
+    },
+    "positionY": {
+      "type": "int",
+      "description": "Position on the Y axis"
+    }
+  },
+  "actions": {
+    "rotate": {
+      "description": "Rotate ERT.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/rotate",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "up": {
+      "description": "Move ERT up.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/upERT",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "down": {
+      "description": "Move ERT down.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/downERT",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "checkEmpty": {
+      "description": "Check if the ERT is empty.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/checkEmpty",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "transferTo": {
+      "description": "Transfer the ERT to another position.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/transferTO",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "checkAngle": {
+      "description": "Check the rotation angle of the ERT.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/checkAngle",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "checkPositionY": {
+      "description": "Check the Y-axis position of the ERT.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/checkPostitionY",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "movementProblem": {
+      "description": "Create or Fix movement problem.",
+      "forms": [
+        {
+          "href": "http://localhost:8003/movementProblem",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    }
+  }
+}

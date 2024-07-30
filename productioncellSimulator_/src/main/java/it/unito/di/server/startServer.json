@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "http://localhost:8001/StartSerevr",
+  "title": "StartServer Thing Description",
+  "@type": "StartServer",
+  "description": "This is a server designed to initiate cellular production and add supplies",
+  "nosec_sc": {
+    "scheme": "nosec"
+  },
+  "security": "nosec_sc",
+  "actions": {
+    "activateCellProduction": {
+      "forms": [
+        {
+          "href": "http://localhost:8001/activateCellProduction",
+          "contentType": "application/json"
+        }
+      ],
+      "description": "Initiates cellular production"
+    },
+    "activateAddSupply": {
+      "forms": [
+        {
+          "href": "http://localhost:8001/activateAddSupply",
+          "contentType": "application/json"
+        }
+      ],
+      "description": "Activates the addition of supplies."
+    }
+  }
+}
+

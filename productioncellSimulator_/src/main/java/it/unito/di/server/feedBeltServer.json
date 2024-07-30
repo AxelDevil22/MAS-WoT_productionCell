@@ -1,0 +1,77 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "http://localhost:8002/FeedBeltServer",
+  "title": "FeedBeltServer Thing Description",
+  "@type": "FeedBeltServer",
+  "description": "Server for managing operations related to the feed belt",
+  "securityDefinitions": {
+    "token_sc": {
+      "scheme": "username/password",
+      "in": "header",
+      "name": "Authorization"
+    }
+  },
+  "security": ["token_sc"],
+  "properties": {
+    "running": {
+      "type": "boolean",
+      "description": "running status of the feedBelt"
+    },
+    "supply": {
+      "type": "boolean",
+      "description": "Status of emptiness for the supply"
+    },
+    "empty": {
+      "type": "boolean",
+      "description": "Status of emptiness for the feed belt"
+    }
+  },
+  "actions": {
+    "checkSupply": {
+      "description": "Check the status of the supply.",
+      "forms": [
+        {
+          "href": "http://localhost:8002/checkSupply",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "checkFeedBelt": {
+      "description": "Check the status of the feed belt.",
+      "forms": [
+        {
+          "href": "http://localhost:8002/checkFeedBelt",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "addRawPlate": {
+      "description": "Add a raw plate.",
+      "forms": [
+        {
+          "href": "http://localhost:8002/addRawPlate",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "changeStateOfRunning": {
+      "description": "change state of running of the feedBelt",
+      "forms": [
+        {
+          "href": "http://localhost:8002/changeStateOfRunning",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    }
+  }
+}

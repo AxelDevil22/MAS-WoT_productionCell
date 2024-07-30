@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca413c37-9327-45f2-988e-3efe9c2d572a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unito/di/elevatingrotarytable/ElevatingRotaryTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unito/di/elevatingrotarytable/ElevatingRotaryTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unito/di/metalplate/MetalPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unito/di/metalplate/MetalPlate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unito/di/other/Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unito/di/other/Supply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unito/di/productioncell/ControllerProductionCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unito/di/productioncell/ControllerProductionCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/productioncell.jcm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/productioncell.jcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/agt/depositbeltcontroller.asl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/agt/depositbeltcontroller.asl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/agt/ertcontroller.asl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/agt/ertcontroller.asl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/agt/feedbeltcontroller.asl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/agt/feedbeltcontroller.asl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/agt/presscontroller.asl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/agt/presscontroller.asl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/agt/robotcontroller.asl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/agt/robotcontroller.asl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/DepositBelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/DepositBelt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/ERT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/ERT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/FeedBelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/FeedBelt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/Press.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/Press.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mas/src/env/tools/Start.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2dDWzFkzEVIfZBycdsLN5Sfdp9m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alexagliuzza/Desktop/Stage/productioncellSimulator &quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.unito.di.Launcher" />
+      <module name="ProductionCellSimulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unito.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.unito.di.Main" />
+      <module name="ProductionCellSimulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unito.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="productioncellSimulator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="productioncellSimulator" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca413c37-9327-45f2-988e-3efe9c2d572a" name="Changes" comment="" />
+      <created>1709543391182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709543391182</updated>
+      <workItem from="1709543392467" duration="282000" />
+      <workItem from="1709558951030" duration="1872000" />
+      <workItem from="1709644898148" duration="1853000" />
+      <workItem from="1709651683370" duration="664000" />
+      <workItem from="1710152182417" duration="1644000" />
+      <workItem from="1710238363491" duration="5234000" />
+      <workItem from="1710263038294" duration="1853000" />
+      <workItem from="1710514665151" duration="2166000" />
+      <workItem from="1710856584522" duration="2806000" />
+      <workItem from="1710944157499" duration="12097000" />
+      <workItem from="1711097515865" duration="7643000" />
+      <workItem from="1711893850584" duration="779000" />
+      <workItem from="1712304820437" duration="996000" />
+      <workItem from="1712579563634" duration="2295000" />
+      <workItem from="1712666998745" duration="469000" />
+      <workItem from="1712820335966" duration="8830000" />
+      <workItem from="1712920416039" duration="115000" />
+      <workItem from="1713166412157" duration="7005000" />
+      <workItem from="1713268707853" duration="42000" />
+      <workItem from="1713268766759" duration="34000" />
+      <workItem from="1713268956059" duration="6881000" />
+      <workItem from="1713341515600" duration="3665000" />
+      <workItem from="1713350997090" duration="2731000" />
+      <workItem from="1713355339250" duration="565000" />
+      <workItem from="1713789796053" duration="3718000" />
+      <workItem from="1713794518390" duration="1853000" />
+      <workItem from="1713800687917" duration="265000" />
+      <workItem from="1713951336728" duration="2409000" />
+      <workItem from="1714050560621" duration="212000" />
+      <workItem from="1714302218818" duration="4112000" />
+      <workItem from="1714370400641" duration="510000" />
+      <workItem from="1714371113527" duration="5561000" />
+      <workItem from="1714462924643" duration="5195000" />
+      <workItem from="1714551150706" duration="3552000" />
+      <workItem from="1714636103193" duration="5337000" />
+      <workItem from="1714641633993" duration="9116000" />
+      <workItem from="1714802873183" duration="3686000" />
+      <workItem from="1714975532790" duration="5274000" />
+      <workItem from="1715061262220" duration="1431000" />
+      <workItem from="1715062700373" duration="3411000" />
+      <workItem from="1715147376056" duration="10488000" />
+      <workItem from="1715164546422" duration="574000" />
+      <workItem from="1715165177196" duration="546000" />
+      <workItem from="1715696949715" duration="1118000" />
+      <workItem from="1720080671992" duration="451000" />
+      <workItem from="1722240110188" duration="1161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,127 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "http://localhost:8005/PressServer",
+  "title": "PressServer Thing Description",
+  "@type": "PressServer",
+  "description": "Server for managing operations related to the press",
+  "securityDefinitions": {
+    "token_sc": {
+      "scheme": "username/password",
+      "in": "header",
+      "name": "Authorization"
+    }
+  },
+  "security": ["token_sc"],
+  "properties": {
+    "forging": {
+      "type": "boolean",
+      "description": "Status of the forging operation of the press"
+    },
+    "isForged": {
+      "type": "boolean",
+      "description": "Status of the completion of the forging process for the material"
+    },
+    "empty": {
+      "type": "boolean",
+      "description": "Status indicating whether the press is currently empty or not"
+    },
+    "positionX": {
+      "type": "int",
+      "description": "Current X position of the press"
+    }
+  },
+  "actions": {
+    "checkEmpty": {
+      "description": "Check if the press is empty.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/checkEmpty",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "checkPositionX": {
+      "description": "Check the X position of the press.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/checkPositionX",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "checkForging": {
+      "description": "Check if forging operation is in progress.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/checkForging",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "checkIsForged": {
+      "description": "Check if the material has been forged.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/checkIsForged",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "forgePlate": {
+      "description": "Initiate the forging process.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/forgePlate",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "openPress": {
+      "description": "Open the press.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/openPress",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "closePress": {
+      "description": "Close the press.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/closePress",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "movementProblem": {
+      "description": "Create or Fix movement problem.",
+      "forms": [
+        {
+          "href": "http://localhost:8005/movementProblem",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    }
+  }
+}

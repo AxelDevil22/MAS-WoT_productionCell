@@ -1,0 +1,122 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "http://localhost:8004/RobotServer",
+  "title": "RobotServer",
+  "@type": "RobotServer Thing Description",
+  "description": "Server for managing robot-related operations",
+  "securityDefinitions": {
+    "token_sc": {
+      "scheme": "username/password",
+      "in": "header",
+      "name": "Authorization"
+    }
+  },
+  "security": ["token_sc"],
+  "properties": {
+    "emptyarm1": {
+      "type": "boolean",
+      "description": "Status of emptiness for the first arm of the robot"
+    },
+    "emptyarm2": {
+      "type": "boolean",
+      "description": "Status of emptiness for the second arm of the robot"
+    },
+    "anglerobot": {
+      "type": "float",
+      "description": "Value of the rotation angle of the robot"
+    }
+  },
+  "actions": {
+    "checkEmptyArm1": {
+      "description": "Check if arm1 is empty.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/checkEmptyArm1",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "checkEmptyArm2": {
+      "description": "Check if arm2 is empty.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/checkEmptyArm2",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "checkAngle": {
+      "description": "Check the angle of the robot.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/checkAngle",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "rotateUp": {
+      "description": "Rotate the robot upwards.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/rotateUP",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "rotateDown": {
+      "description": "Rotate the robot downwards.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/rotateDown",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "activateMagnet1": {
+      "description": "Activate magnet 1.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/activeMagnet1",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "activateMagnet2": {
+      "description": "Activate magnet 2.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/activeMagnet2",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "movementProblem": {
+      "description": "Create or Fix movement problem.",
+      "forms": [
+        {
+          "href": "http://localhost:8004/movementProblem",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    }
+  }
+}
+
+

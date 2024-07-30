@@ -1,0 +1,32 @@
+
+mas productioncell {
+
+  agent ert : ertcontroller.asl
+  agent robot : robotcontroller.asl
+  agent press : presscontroller.asl
+  agent feedbelt : feedbeltcontroller.asl
+  agent depositbelt : depositbeltcontroller.asl
+
+    workspace productioncellMachine{
+        artifact start: tools.Start  {
+
+        }
+        artifact ertArt: tools.ERT{
+            focused-by: ert
+        }
+        artifact robotArt: tools.Robot{
+            focused-by: robot
+        }
+        artifact pressArt: tools.Press{
+            focused-by: press
+        }
+        artifact depositbeltArt: tools.DepositBelt{
+            focused-by: depositbelt
+        }
+        
+        artifact feedbeltArt: tools.FeedBelt{
+            focused-by: feedbelt
+        }
+    }
+}
+

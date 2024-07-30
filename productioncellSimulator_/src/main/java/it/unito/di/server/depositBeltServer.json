@@ -1,0 +1,62 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "http://localhost:8006/DepositBeltServer",
+  "title": "DepositBeltServer Thing Description",
+  "@type": "DepositBeltServer",
+  "description": "Server for managing operations related to the deposit belt",
+  "securityDefinitions": {
+    "token_sc": {
+      "scheme": "username/password",
+      "in": "header",
+      "name": "Authorization"
+    }
+  },
+  "security": [
+    "token_sc"
+  ],
+  "properties": {
+    "running": {
+      "type": "boolean",
+      "description": "Status indicating if the deposit belt is still running"
+    },
+    "empty": {
+      "type": "boolean",
+      "description": "Status indicating whether the deposit belt is currently empty or not"
+    }
+  },
+  "actions": {
+    "checkDepositBelt": {
+      "description": "Check the status of the deposit belt.",
+      "forms": [
+        {
+          "href": "http://localhost:8006/checkDepositBelt",
+          "contentType": "application/json",
+          "op": "readproperty",
+          "response": {
+            "contentType": "application/json"
+          }
+        }
+      ]
+    },
+    "storeMetalPlate": {
+      "description": "Store a metal plate.",
+      "forms": [
+        {
+          "href": "http://localhost:8006/storeMetalPlate",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    },
+    "changeStateOfRunning": {
+      "description": "change state of running of the depositBelt",
+      "forms": [
+        {
+          "href": "http://localhost:8006/changeStateOfRunning",
+          "contentType": "application/json",
+          "op": "invokeaction"
+        }
+      ]
+    }
+  }
+}
