@@ -24,7 +24,7 @@ Inoltre, il progetto include un'interfaccia RESTful API e l'implementazione del 
     Le istruzioni per l'installazione e la configurazione di JaCaMo sono disponibili al seguente URL: https://jacamo-lang.github.io/getting-started
 
 - Java: 
-    dalla versione 17 in su
+    dalla versione 17 in su, disponibili al seguente URL : https://www.oracle.com/it/java/technologies/downloads/
 
 - Gradle:
     La versione 8.7 di Gradle è inclusa nel repository GitHub del progetto.
